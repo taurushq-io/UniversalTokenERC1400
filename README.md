@@ -1,6 +1,6 @@
 # UniversalToken (ERC-1400) fork
 
-This project is a fork of [UniveralToken](https://github.com/Consensys/UniversalToken) (ERC-1400) by Consensys.
+This project is a fork of [UniveralToken](https://github.com/Consensys/UniversalToken) (ERC-1400) by [Consensys](https://consensys.io).
 
 Its main purpose is to update the libraries to facilitate the compilation of smart contracts with [Hardhat](https://hardhat.org).
 
@@ -33,6 +33,6 @@ npx hardhat compile
 In [compilation](./compilation):
 
 - [ERC1400.json](compilation/ERC1400.json) is the resulting input JSON for the contract [ERC1400.sol](contracts/ERC1400.sol)
-- [EtherscanVerification.sol](EtherscanVerification.sol) is the flattening file for [ERC1400.sol](contracts/ERC1400.sol) to verify it on Etherscan
+- [EtherscanVerification.sol](compilation/etherscanVerification.sol) is the flattening file for [ERC1400.sol](contracts/ERC1400.sol) to verify it on Etherscan
 
 See [Hardhat - Flattening your contracts](https://hardhat.org/hardhat-runner/docs/advanced/flattening)
