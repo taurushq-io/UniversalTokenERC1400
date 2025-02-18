@@ -36,3 +36,7 @@ In [compilation](./compilation):
 - [EtherscanVerification.sol](compilation/etherscanVerification.sol) is the flattening file for [ERC1400.sol](contracts/ERC1400.sol) to verify it on Etherscan
 
 See [Hardhat - Flattening your contracts](https://hardhat.org/hardhat-runner/docs/advanced/flattening)
+
+## UML
+
+![ERC1400PlantUML](./doc/ERC1400PlantUML.png)
